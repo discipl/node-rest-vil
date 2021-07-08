@@ -1,0 +1,17 @@
+{
+  "name": "rest-vil",
+  "version": "1.0.0",
+  "description": "A Node.js RESTful API for VIL development purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api",
+    "vil"
+  ],
+  "author": "Steven Gort",
+  "license": "ISC"
+}
