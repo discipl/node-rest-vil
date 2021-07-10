@@ -8,8 +8,13 @@ router.get('/', (req, res, next) => {
 });
 
 router.post('/', (req, res, next) => {
+    const caseorder = {
+        productId: req.body.productId,
+        date: req.body.date
+    };
     res.status(201).json({
-        message: "Case was created"
+        message: "Case was created",
+        caseorder: caseorder
     });
 });
 
